@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+ <head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="./css/contact.css" type="text/css">
+   <title>Stickers For Life!</title>
+</head>
+<body>
+    <h1 style="font-family: cursive">Stickers For Life!</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: antiquewhite;" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./product.html">Products<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./contact.html">Contacts<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+     <form class="cmxform" id="commentForm" method="get" action="#">
+        <fieldset>
+          <legend>Please provide your name, email address (won't be published) and a comment</legend>
+          <p>
+            <label for="cname">Name (required, at least 2 characters)</label>
+            <input id="cname" name="name" minlength="2" type="text" required>
+          </p>
+          <p>
+            <label for="cemail">E-Mail (required)</label>
+            <input id="cemail" type="email" name="email" required>
+          </p>
+          <p>
+            <label for="ccomment">Your comment (required)</label>
+            <textarea id="ccomment" name="comment" required></textarea>
+          </p>
+          <p>
+            <label for="cagree"><input type="checkbox" id="cagree" name="agree" value="agree" /> Please agree to our policy</label>
+          </p>
+          <p>
+            <input class="submit" type="submit" value="Submit">
+          </p>
+        </fieldset>
+      </form>
+      <img src="./image/logo.jpg"> 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+</body>
+</html>
